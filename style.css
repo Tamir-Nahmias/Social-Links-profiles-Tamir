@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.card{
+    margin-top: 150px;
+    width: 320px;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 0.5rem;
+}
+.mainpic{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+img{
+    border-radius: 20rem;
+    width: 90px;
+    height: auto;
+}
+.uppercard {
+    display:grid;
+    justify-items: center;
+}
+.uppercard > p:nth-child(3) {
+    font-weight: 400;
+    font-size: 12px
+}
+.uppercard > p:nth-child(2) {
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+.lowercard > div {
+    justify-self: center;
+    background-color: hsl(0, 0%, 20%);
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+.lowercard{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+a {
+    color: inherit; /* Uses parent element's color */
+    text-decoration: none; /* Removes underline */
+    border: none;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center;margin-top: 150px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
