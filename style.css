@@ -15,7 +15,7 @@ main{
 }
 .card{
     margin-top: 150px;
-    width: 320px;
+    max-width: 320px;
     height: auto;
     justify-content: center;
     align-content: center;
@@ -65,6 +65,29 @@ a {
     border: none;
 }
 
+@media screen and (max-width: 375px) {
+    .card {
+        margin-top: 2rem;
+        padding: 15px;
+    }
+    .lowercard > div {
+        width: 200px;
+        padding: 5px;
+        margin: 5px;
+        font-weight: 400;
+    }
+    .lowercard{
+        margin-top: 3px;
+        margin-bottom: 10px;
+    }
+    .uppercard > p:nth-child(3) {
+        font-size: 10px
+    }
+    .uppercard > p:nth-child(2) {
+        font-weight: 500;
+    }
+   
+}
 
 
 .attribution { font-size: 11px; text-align: center;margin-top: 150px; }
